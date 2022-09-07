@@ -21,14 +21,15 @@ img {
 }
 
 .game {
-  margin: auto;
+  margin: 150px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 90%;
   width: 90%;
-  background: white;
+  background: rgb(172, 165, 165);
   box-shadow: 4px 10px 16px rgba(0, 0, 0, 0.12);
+  border:5px;
 }
 
 .scores {
