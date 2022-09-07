@@ -59,10 +59,15 @@ function reset (){
 
  spanPlayer2.style.color="black"
  spanPlayer1.style.color="black"
- 
+
  buttonPlayer1.disabled=false;
  buttonPlayer2.disabled=false;
 }
 
 
  resetButton.addEventListener('click',reset)
+
+ document.body.addEventListener('copy',(e)=>{
+  e.preventDefault();
+  alert("Copy is not allowed")
+ })
